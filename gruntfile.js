@@ -11,9 +11,9 @@ module.exports = function(grunt) {
           browserifyOptions: {
             standalone: 'foo'
           },
-          alias: {
-            'ReactDOM': './node_modules/react-dom/index.js' //This breaks export
-          }
+          //alias: {
+          //  'ReactDOM': './node_modules/react-dom/index.js' //This breaks export
+          //}
         }
       }
     }

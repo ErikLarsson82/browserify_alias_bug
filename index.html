@@ -1,2 +1,6 @@
 <script src="bundle.js"></script>
-<script>console.log(foo, "correct = " + (foo === "123"))</script>
+<script>
+//bundle.js should export a String, "123"
+//but is instead exporting the react-dom module
+console.log(foo, "correct = " + (foo === "123"))
+</script>

@@ -1,6 +1,4 @@
-
 var React = require('react');
-//var ReactDOM = require('react-dom'); //works
-var ReactDOM = require('ReactDOM'); //doesnt work with alias
+typeof(require('alias-test')) //is correctly react-dom
 
 module.exports = "123";
